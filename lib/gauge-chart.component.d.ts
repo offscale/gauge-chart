@@ -8,7 +8,7 @@ export declare class GaugeChartComponent implements OnInit {
     reverse: boolean;
     animationSecs: number;
     labels: GaugeLabel[];
-    segments: GaugeSegment[];
+    set segments(segments: GaugeSegment[]);
     sortedSegments: GaugeSegment[];
     segmentsLoaded: boolean;
     isIE11: boolean;

@@ -18,7 +18,7 @@ export declare class GaugeSegment {
         bgColor?: string;
         borderWidth?: number;
     });
-    readonly computedRadius: number;
-    readonly strokeProgress: string;
-    readonly strokeEmptyProgress: string;
+    get computedRadius(): number;
+    get strokeProgress(): string;
+    get strokeEmptyProgress(): string;
 }
